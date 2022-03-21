@@ -64,9 +64,9 @@ class: middle, center
 
 .center.width-70[![](./figures/conditioned-program.png)]
 
-This results in the likelihood
+... but the likelihood
 $p(x | \theta) = \int p(x, z| \theta) dz$
-to be intractable.
+is intractable :-(
 
 ---
 
