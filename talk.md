@@ -27,13 +27,13 @@ class: smaller-x, middle, center
 .kol-1-5.center[.width-100.circle[![](figures/faces/arnaud.jpg)] Arnaud Delaunoy]
 .kol-1-5.center[.width-100.circle[![](figures/faces/malavika.jpg)] Malavika Vasist]
 .kol-1-5.center[.width-100.circle[![](figures/faces/francois.jpg)] Francois Rozet]
-.kol-1-5.center[.width-90.circle[![](figures/faces/christoph.jpg)] Christophe Weniger]
+.kol-1-5.center[.width-90.circle[![](figures/faces/omer.jpg)] Omer Rochman]
 ]
 
 .grid[
 .kol-1-5.center[.width-100[![](figures/faces/siddarth.png)] Siddarth Mishra-Sharma]
 .kol-1-5.center[.width-100[![](figures/faces/lukas.png)] Lukas Heinrich]
-.kol-1-5.center[.width-100[![](figures/faces/gunes.png)] Atılım Güneş Baydin]
+.kol-1-5.center[.width-100.circle[![](figures/faces/christoph.jpg)] Christophe Weniger]
 .kol-1-5.center[.width-100.circle[![](figures/faces/gf.jpg)] Gianfranco Bertone]
 .kol-1-5.center[.width-90.circle[![](figures/faces/nil.jpg)] Nil Banik]
 ]
@@ -279,7 +279,7 @@ class: middle
 
 class: middle
 
-## A crisis in simulation-based inference? 
+## Is this reliable?
 
 Coverage diagnostic:
 - For every $x,\theta \sim p(x,\theta)$ in a validation set, compute the $1-\alpha$ credible interval based on $\hat{p}(\theta|x)$.
@@ -299,6 +299,16 @@ class: middle
 .center.width-100[![](./figures/coverage-crisis.png)]
 
 .footnote[[Hermans et al, 2021](https://arxiv.org/abs/2110.06581).]
+
+---
+
+class: middle
+
+## What if the simulation model is not accurate or incomplete?
+
+.center.width-100[![](./figures/deepmod2.png)]
+
+.footnote[Image credits: [Gert-Jan Both](https://gjboth.github.io/thesis/deepmod.html), 2021.]
 
 ---
 
